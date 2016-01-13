@@ -1,0 +1,103 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+.nav {
+	background-color: #FFB4B0;
+	height: 60px;
+	padding: 10px;
+	border: 2.5px solid black;
+}
+
+.nav li {
+	margin: 5px 15px 0 15px;
+}
+
+li {
+	display: inline;
+	font-family: Arial;
+	list-style-type: none;
+}
+
+.sidebar {
+	background-color: #4DD7FA;
+	height: 500px;
+	width: 20%;
+	float: left;
+	padding: 10px;
+	border: 2.5px solid black;
+	box-sizing: border-box;
+}
+
+.yellowBox {
+	background-color: #FEFAC0;
+	width: 78%;
+	height: 500px;
+	float: right;
+	padding: 10px;
+	border: 2.5px solid black;
+	box-sizing: border-box;
+}
+
+.song li {
+	margin: 5px 15px 0 	5px;
+}
+
+h1 {
+	font-family: Arial;
+	font-weight: 200;
+	color: #785616;
+}
+
+button {
+	margin: 55px auto 15px;
+	display: block;
+	background-color: red;
+	border: 2px solid black;
+	border-radius: 3px;
+	font-size: 1em;
+	padding: 1px 25px;
+}
+
+.checkboxesUno {
+	margin:0;
+	float: left;
+	width: 42%;
+
+
+}
+
+.checkboxesDos {
+	margin:0;
+	float: left;
+	width: 55%;
+}
+
+.buttonContainer {
+	clear: both;
+	padding-top: 5px;
+}
+
+.song li {
+	border-right: 1px solid black;
+	padding-right: ;
+}
+
+.song li:last-of-type {
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music History</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <ul class="nav">
+  <!-- Nav bar links (View, Add, Profile) -->
+  	  <li><a href="#">View Music</a></li>
+	  <li><a href="#">Add Music</a></li>
+	  <li><a href="#">Profile</a></li>
+	
+	</ul>
+  </nav>
+
+
+       
+<!-- 5 options for the ARTIST select element -->
+<div class="sidebar">
+<h3>Song Length:<h3>
+<input type="range" name="songlength" min="0" max="100" step="1" value="50">
+
+<h3>Artist:</h3>
+<select class="artistselect">
+  <option value="deftones">Deftones</option>
+  <option value="soundgarden">Soundgarden</option>
+  <option value="nirvana">Nirvana</option>
+  <option value="tool">Tool</option>
+</select>
+
+<!-- 5 options for the ALBUM select element. -->
+<h3>Album:</h3>
+
+<select class="album">
+  <option value="deftones">Deftones</option>
+  <option value="soundgarden">Superunknown</option>
+  <option value="nirvana">Nevermind</option>
+  <option value="tool">Undertow</option>
+</select>
+
+<h3>Genre:</h3>
+
+<section class="checkboxesUno">
+	<form>
+		<input type="checkbox" name="genre" value="rock">Rock<br>
+		<input type="checkbox" name="genre" value="pop">Pop<br>
+		<input type="checkbox" name="genre" value="blues">Blues<br>
+	</form>
+</section>
+<section class="checkboxesDos">
+	<form> 
+		<input type="checkbox" name="genre" value="classical">Classical<br>
+		<input type="checkbox" name="genre" value="jazz">Jazz<br>
+		<input type="checkbox" name="genre" value="hiphop">Hip Hop<br>
+	</form>
+</section>
+<div class="buttonContainer">
+	<button>Filter</button>
+</div>
+</div>
+
+<!-- END SIDEBAR -->
+
+<!-- BEGIN YELLOWBOX -->
+
+<div class="yellowBox">
+<article>
+	<h1>Minerva</h1>
+	<ul class="song">
+		<li>Deftones</li>
+		<li>Deftones</li>
+		<li>Rock</li>
+	</ul>
+</article>
+<article>
+	<h1>Mailman</h1>
+	<ul class="song">
+		<li>Soundgarden</li>
+		<li>Superunknown</li>
+		<li>Rock</li>
+	</ul>
+</article>
+<article>
+	<h1>Lithium</h1>
+	<ul class="song">
+		<li>Nirvana</li>
+		<li>Nevermind</li>
+		<li>Rock</li>
+	</ul>
+</article>
+<article>
+	<h1>Sober</h1>
+	<ul class="song">
+		<li>Tool</li>
+		<li>Undertow</li>
+		<li>Rock</li>
+	</ul>
+</article>
+
+</div>
+<!-- END YELLOW BOX -->
+
+</body>
+</html>
